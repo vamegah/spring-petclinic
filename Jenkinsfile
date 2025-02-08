@@ -32,7 +32,7 @@ pipeline {
 
         stage("deploy") {
             steps {
-                bat "Java -jar /jenkins_home/workspace/PetClinicDeclarativePipeline/target/*.jar"
+                bat "java -jar C:/data/jenkins_home/workspace/PetClinicDeclarativePipeline/target/*.jar"
             }
         }
     }
